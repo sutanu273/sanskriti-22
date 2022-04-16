@@ -112,14 +112,14 @@ section{
 .header .logo span{
     color:var(--main-color);
     text-transform: none;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family:'Samarkan Normal';
 }
 
 .header #logo{
     margin-left: -4rem;
     margin-right: -50rem;
-    padding: 0;
+    padding: 0px;
     margin-top: -1rem;
     margin-bottom: -1rem;
     position: relative;
@@ -127,9 +127,10 @@ section{
 }
 
 .header .navbar a{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: #d4d4d4;
     margin-left: 2rem;
+    padding: 0px;
 }
 
 .header .navbar a:hover{
