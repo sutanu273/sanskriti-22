@@ -20,7 +20,6 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -229,6 +228,10 @@ section{
     font-weight: 700;
     color:#1f1f1f;
     padding:1rem 0;
+}
+
+.events .brochure{
+    margin: 0 auto;
 }
 
 .gallery .box-container{
