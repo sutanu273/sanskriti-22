@@ -125,6 +125,25 @@ section{
     left: 4rem;
 }
 
+/* .header .navbar ul{
+    list-style: none;
+    display: inline;
+    margin-right: 2rem;
+}
+
+.header .navbar ul li{
+    float: left;
+}
+
+.header .navbar .dropdown li{
+    display: none;
+}
+
+.header .navbar a:hover ul li{
+    display: block;
+    float: none;
+} */
+
 .header .navbar a{
     font-size: 2rem;
     color: #d4d4d4;
@@ -132,7 +151,7 @@ section{
     padding: 0px;
 }
 
-.header .navbar a:hover{
+.header .navbar ul li a:hover{
     color:var(--main-color);
 }
 
@@ -230,8 +249,27 @@ section{
     padding:1rem 0;
 }
 
+.events .content{
+    margin-bottom: -6rem;
+}
+
+.events .content h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1f1f1f;
+}
+
 .events .brochure{
-    margin: 0 auto;
+    text-align: center;
+}
+
+.events .brochure .btn{
+    background-color: var(--main-color);
+    color: white;
+}
+
+.events .brochure .btn:hover{
+    color: #1f1f1f;
 }
 
 .gallery .box-container{
