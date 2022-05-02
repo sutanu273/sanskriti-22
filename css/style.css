@@ -4,7 +4,6 @@
     src: url("samarn.eot?") format("eot"),
         url("samarn.woff") format("woff"),
         url("samarn.ttf") format("truetype"),
-        /* url("PatrickHand-Regular.ttf") format("truetype"), */
         url("samarn.svg#SamarkanNormal") format("svg");
     font-weight: normal;
     font-style: normal;
@@ -45,6 +44,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: #d4d4d4;
+    /* background: #ffd500; */
 }
 
 section{
@@ -151,7 +151,7 @@ section{
     padding: 0px;
 }
 
-.header .navbar ul li a:hover{
+.header .navbar a:hover{
     color:var(--main-color);
 }
 
